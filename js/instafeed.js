@@ -144,6 +144,12 @@
               eMsg = "No image found for resolution: " + this.options.resolution + ".";
               throw new Error(eMsg);
             }
+            if(this.options.resolution == 'standard_resolution'){
+              imageFull = imageObj.url.replace("s640x640","s1080x1080");
+              imageUrl = imageFull;
+            } else{
+              imageUrl = imageObj.url;
+            }
             imgWidth = imageObj.width;
             imgHeight = imageObj.height;
             imgOrient = "square";
