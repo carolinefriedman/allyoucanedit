@@ -3,4 +3,4 @@ Website prototype dedicated to establishing a platform and community for creativ
 
 Created for Ceara Kirkpatrick (@cearakirk) using HTML, CSS, Bootstrap, and JQuery.
 
-http://allyoucanedit.com
+- WEBSITE NO LONGER LIVE (2020) - 
